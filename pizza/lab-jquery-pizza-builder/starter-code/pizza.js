@@ -38,7 +38,7 @@ btpepper.onclick = function(){
         for(let i = 0; i < pepper.length; i++){
             pepper[i].style.visibility = 'visible';
         }
-        precioPepper.style.visibility = 'visible';
+        precioPepper.style.display = 'block';
 
     }
     else{
@@ -48,7 +48,7 @@ btpepper.onclick = function(){
         for(let i = 0; i < pepper.length; i++){
             pepper[i].style.visibility = 'hidden';
         }
-        precioPepper.style.visibility = 'hidden';
+        precioPepper.style.display = 'none';
     }
 }
 
@@ -61,7 +61,7 @@ btpep.onclick = function(){
         for(let i = 0; i < peperoni.length; i++){
             peperoni[i].style.visibility = 'visible';
         }
-        precioPep.style.visibility = 'visible';
+        precioPep.style.display = 'block';
     }
     else{
         visiblepeproni = 1;
@@ -70,7 +70,7 @@ btpep.onclick = function(){
         for(let i = 0; i < peperoni.length; i++){
             peperoni[i].style.visibility = 'hidden';
         }
-        precioPep.style.visibility = 'hidden';
+        precioPep.style.display = 'none';
     }
 }
 
@@ -83,7 +83,7 @@ btmushroom.onclick = function(){
         for(let i = 0; i < mushroom.length; i++){
             mushroom[i].style.visibility = 'visible';
         }
-        precioMushroom.style.visibility = 'visible';
+        precioMushroom.style.display = 'block';
     }
     else{
         visiblemushroom = 1;
@@ -92,7 +92,7 @@ btmushroom.onclick = function(){
         for(let i = 0; i < mushroom.length; i++){
             mushroom[i].style.visibility = 'hidden';
         }
-        precioMushroom.style.visibility = 'hidden';
+        precioMushroom.style.display = 'none';
     }
 }
 
@@ -103,14 +103,14 @@ btsauce.onclick = function(){
         precio(3);
         btsauce.setAttribute('class', 'btn btn-sauce active');
         sause.style.visibility = 'visible';
-        precioSauce.style.visibility = 'visible';
+        precioSauce.style.display = 'block';
     }
     else{
         visiblesauce = 1;
         precio(-3);
         btsauce.setAttribute('class', 'btn btn-sauce');
         sause.style.visibility = 'hidden';
-        precioSauce.style.visibility = 'hidden';
+        precioSauce.style.display = 'none';
     }
 }
 
@@ -121,14 +121,14 @@ btgluten.onclick = function(){
         precio(5);
         btgluten.setAttribute('class', 'btn btn-crust active');
         gluten.style.visibility = 'visible';
-        preciogluten.style.visibility = 'visible';
+        preciogluten.style.display = 'block';
     }
     else{
         visiblegluten = 1;
         precio(-5);
         btgluten.setAttribute('class', 'btn btn-crust');  
         gluten.style.visibility = 'hidden';
-        preciogluten.style.visibility = 'hidden';
+        preciogluten.style.display = 'none';
     }
 }
 
