@@ -10,11 +10,9 @@ let precioInicial = 21;
 const pepper = document.querySelectorAll('.green-pepper');
 const peperoni = document.querySelectorAll('.pep');
 const mushroom = document.querySelectorAll('.mushroom');
-const gluten = document.querySelector(".crust-gluten-free");
-const sause = document.querySelector(".sauce-white");
-const cheese = document.querySelector('.cheese');
-console.log(cheese);
-
+const gluten = document.querySelector('.crust-gluten-free');
+const sause = document.querySelector('.sauce');
+const cheese = document.querySelector('.cheese'); 
 
 const btpepper = document.querySelector('.btn-green-peppers');
 const btpep = document.querySelector('.btn-pepperonni');
@@ -29,6 +27,7 @@ const precioSauce = document.querySelector('.price li:nth-child(4)');
 const preciogluten = document.querySelector('.price li:nth-child(5)');
 
 precio(0);
+cheese.style.display = 'none'; 
 
 
 btpepper.onclick = function(){
